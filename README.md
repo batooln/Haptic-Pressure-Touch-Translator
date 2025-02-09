@@ -1,5 +1,5 @@
 # Haptic Pressure Touch Translator
-Haptic Translator allows you to translate formulated Morse code characters to words and sentences using simple, haptic touches on your thumb, index, and middle finger.
+Haptic Translator allows you to translate formulated Morse code characters to words and sentences using simple, haptic touches on your thumb, index, and middle finger. Created by Jasmine Chan, Batool Noweir, Timothy Ni. 
 
 # How does it work?
 When the user puts pressure on either its thumb, index or middle finger, the value returned from the sensor is sent to the Arduino board. Each sensor is set up specifically for each Morse code character; thumb for space, index finger for ".", and middle finger for "-". Furthermore, with each tap, certain characters show up to combine for a certain letter. If the user has completed making their letter, they wait 2 seconds to time out the set timer and the board will convert the combined characters into a letter. This can be continued until the user is satisfied with their word or sentence.
